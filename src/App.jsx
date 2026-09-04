@@ -192,7 +192,7 @@ export default function App() {
       <header className="site-header">
         <nav className="nav" aria-label="Main navigation">
           <div className="logo logo--typing">
-            <span>&lt; Muskan.dev /&gt;</span>
+            <span>&lt; UTSHOPROGRAMMER /&gt;</span>
           </div>
           <button
             type="button"
@@ -210,7 +210,7 @@ export default function App() {
             <li><a href="#about" onClick={() => setNavOpen(false)}>About</a></li>
             <li><a href="#skills" onClick={() => setNavOpen(false)}>Stack</a></li>
             <li><a href="#projects" onClick={() => setNavOpen(false)}>Projects</a></li>
-            <li><a href="#experience" onClick={() => setNavOpen(false)}>Experience</a></li>
+            {/* <li><a href="#experience" onClick={() => setNavOpen(false)}>Experience</a></li> */}
             <li><a href="#contact" onClick={() => setNavOpen(false)}>Contact</a></li>
             <li className="nav__resume nav__resume--mobile">
               <a href={profileData.resume} download onClick={() => setNavOpen(false)}>
@@ -233,6 +233,7 @@ export default function App() {
               </div>
               <h1 id="hero-heading" className="hero-text fade-up">
                 <span className="hero-name">{profileData.name}</span>
+                <br/>
                 <span className="accent accent--inline role-rotator">
                   {roleText}
                 </span>
@@ -257,8 +258,8 @@ export default function App() {
             </div>
             <div className="hero__card lift" data-aos="zoom-in">
               <img
-                src="/WhatsApp Image 2025-10-23 at 17.50.11_607622d6.jpg"
-                alt="Portrait of Muskan"
+                src="/hero.jpeg"
+                alt="Portrait of UTSHOPROGRAMMER"
                 loading="lazy"
               />
               <div className="hero__card__body">
@@ -278,7 +279,7 @@ export default function App() {
           <div className="container">
             <div className="section__header">
               <h2 id="about-heading"><FaUser aria-hidden="true" /> About Me</h2>
-              <p>I care about clean systems, delightful UX, and measurable impact. Here’s how I work.</p>
+              <p>I care about clean fundamentals, real problem-solving, and building things that actually work.</p>
             </div>
             <div className="about-grid">
               {profileData.aboutBlocks.map((block, index) => (
@@ -486,21 +487,21 @@ export default function App() {
             <div className="snapshot-grid">
               <div className="snapshot-card lift" data-aos="fade-up">
                 <h3>GitHub</h3>
-                <p className="muted">@techmuskan</p>
+                <p className="muted">@utshoprogrammer</p>
                 <a className="btn btn--ghost btn--small" href={profileData.contact.github}>
                   View Profile
                 </a>
               </div>
               <div className="snapshot-card lift" data-aos="fade-up" data-aos-delay="100">
                 <h3>LeetCode</h3>
-                <p className="muted">ID: 7iHcre53wg</p>
+                <p className="muted">ID: utshoprogrammer</p>
                 <a className="btn btn--ghost btn--small" href={profileData.contact.leetcode}>
                   View Profile
                 </a>
               </div>
               <div className="snapshot-card lift" data-aos="fade-up" data-aos-delay="200">
                 <h3>HackerRank</h3>
-                <p className="muted">@kawadkarmuskan4</p>
+                <p className="muted">@utshoprogrammer</p>
                 <a className="btn btn--ghost btn--small" href={profileData.contact.hackerrank}>
                   View Profile
                 </a>
@@ -509,7 +510,7 @@ export default function App() {
           </div>
         </section>
 
-        <section id="experience" className="section section--alt">
+        {/* <section id="experience" className="section section--alt">
           <div className="container">
             <div className="section__header">
               <h2><FaBriefcase /> Experience</h2>
@@ -535,7 +536,7 @@ export default function App() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section id="education" className="section">
           <div className="container">
@@ -560,7 +561,7 @@ export default function App() {
           </div>
         </section>
 
-        <section id="ai" className="section section--alt">
+        {/* <section id="ai" className="section section--alt">
           <div className="container">
             <div className="section__header">
               <h2><FaBrain /> Certifications & Leadership</h2>
@@ -612,7 +613,7 @@ export default function App() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section id="contact" className="section" aria-labelledby="contact-heading">
           <div className="container">
@@ -641,10 +642,10 @@ export default function App() {
                     <FaCode aria-hidden="true" /> HackerRank
                   </a>
                   <a href={profileData.contact.youtube} className="btn btn--ghost" aria-label="Visit YouTube channel">
-                    <FaYoutube aria-hidden="true" /> YouTube
+                    <FaCode aria-hidden="true" /> CodeForces
                   </a>
                   <a href={profileData.contact.instagram} className="btn btn--ghost" aria-label="Visit Instagram profile">
-                    <FaInstagram aria-hidden="true" /> Instagram
+                    <FaCode aria-hidden="true" /> CodeChef
                   </a>
                 </div>
                 <div className="contact-meta">
@@ -706,7 +707,7 @@ export default function App() {
           <a href={profileData.contact.linkedin}>LinkedIn</a> ·{" "}
           <a href={profileData.contact.leetcode}>LeetCode</a>
         </p>
-        <p className="muted">All information above is true and verified by me.</p>
+        {/* <p className="muted">All information above is true and verified by me.</p> */}
       </footer>
     </>
   );

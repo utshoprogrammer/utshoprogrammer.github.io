@@ -190,7 +190,7 @@ ul {
 }
 
 .logo--typing span {
-  display: inline-block;
+  /* display: inline-block; */
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid var(--accent);
@@ -674,7 +674,7 @@ ul {
 }
 
 .contact-meta {
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: var(--muted);
   display: flex;
   align-items: center;

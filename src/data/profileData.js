@@ -1,39 +1,39 @@
 export const profileData = {
-  name: "Muskan Kawadkar",
-  role: ["Aspiring Software Engineer", "AI Enthusiast", "FULL - STACK Developer"],
-  location: "Bhopal, Madhya Pradesh, India",
-  phone: "+91 96448 70597",
+  name: "Utsa Kumar Roy",
+  role: ["Software Engineer", "DSA Problem Solver", "FULL - Stack Developer"],
+  location: "Lalmonirhat, Bangladesh",
+  phone: "+88 01795 791769",
   tagline:
-    "Results‑driven CSE undergraduate building scalable web solutions with strong DSA and full‑stack expertise.",
+    "Diploma in CST student sharpening data structures, algorithms, and full-stack fundamentals through Phitron and competitive programming — building real projects to back it up.",
   about:
     "I build scalable web applications with clean backend architecture and seamless user experience.",
   highlights: [
-    "Engineered MERN dashboards and user portals with secure CRUD workflows",
-    "Optimized MongoDB queries, improving performance by 30%",
+    "Completed Phitron's CSE Fundamentals course — covering DSA, problem-solving, and core programming logic",
+    "Solved problems across Codeforces, LeetCode, and CodeChef to build algorithmic thinking",
     "Integrated REST APIs and developed responsive, production-ready UI",
-    "Currently exploring AI-powered applications",
+    "Currently expanding into full-stack development and AI-powered applications",
   ],
   stats: [
     { label: "Projects", value: "8+" },
-    { label: "Hackathons", value: "5+" },
-    { label: "NPTEL", value: "2" },
+    { label: "Contests", value: "45+" },
+    { label: "Solved", value: "200+" },
     { label: "Certificates", value: "7+" },
   ],
   aboutBlocks: [
     {
       title: "What I Do",
-      text: "Translate real-world problems into clean, scalable web products with strong UX.",
+      text: "Learn and apply core CS fundamentals — DSA, algorithms, and problem-solving — to build a foundation for real software engineering.",
     },
     {
       title: "What I’ve Done",
-      text: "Built MERN dashboards, optimized databases by 30%, and shipped production-ready UI.",
+      text: "Completed Phitron's CSE Fundamentals course, built C/C++ programming projects, and solved problems across Codeforces, LeetCode, and CodeChef.",
     },
     {
       title: "What I Aim For",
-      text: "Build products that feel simple for users and powerful under the hood.",
+      text: "Move from fundamentals to shipping real, deployed full-stack products — and prove it with working links, not claims.",
     },
   ],
-  techDna: "MERN + AI + Problem Solving = My Core Stack",
+  techDna: "Full Stack + AI + Problem Solving = My Core Stack",
   skillProof: [
     "Optimized MongoDB queries → 30% faster performance",
     "Built 3+ FULL-STACK projects using MERN",
@@ -58,10 +58,11 @@ export const profileData = {
     {
       title: "Core Programming",
       items: [
+        { name: " C ", level: "advanced" },
         { name: "C++", level: "advanced" },
-        { name: "Java", level: "advanced" },
         { name: "JavaScript", level: "advanced" },
-        { name: "SQL", level: "intermediate" },
+        { name: "Python", level: "advanced" },
+        { name: "Typescript", level: "expert" },
       ],
     },
     {
@@ -70,7 +71,8 @@ export const profileData = {
         { name: "React.js", level: "expert" },
         { name: "HTML", level: "expert" },
         { name: "CSS", level: "advanced" },
-        { name: "Bootstrap", level: "advanced" },
+        { name: "TailwindCSS", level: "advanced" },
+        { name: "Next.js", level: "advanced" },
       ],
     },
     {
@@ -85,22 +87,22 @@ export const profileData = {
       title: "Database",
       items: [
         { name: "MongoDB", level: "advanced" },
-        { name: "MySQL", level: "intermediate" },
+        { name: "PostgreSQL", level: "expert" },
       ],
     },
     {
       title: "AI / ML",
       items: [
-        { name: "Python", level: "intermediate" },
-        { name: "Streamlit", level: "intermediate" },
+        { name: "Python", level: "advanced" },
+        { name: "Claude Code", level: "expert" },
       ],
     },
     {
       title: "Core CS",
       items: [
-        { name: "DSA", level: "advanced" },
-        { name: "OOP", level: "advanced" },
-        { name: "System Design", level: "intermediate" },
+        { name: "DSA", level: "expert" },
+        { name: "OOP", level: "expert" },
+        { name: "System Design", level: "advanced" },
       ],
     },
     {
@@ -108,9 +110,9 @@ export const profileData = {
       items: [
         { name: "Git", level: "advanced" },
         { name: "GitHub", level: "advanced" },
-        { name: "Docker", level: "intermediate" },
-        { name: "AWS", level: "intermediate" },
-        { name: "Figma", level: "intermediate" },
+        { name: "Docker", level: "expert" },
+        { name: "AWS", level: "expert" },
+        { name: "Figma", level: "expert" },
         { name: "VS Code", level: "advanced" },
       ],
     },
@@ -200,23 +202,23 @@ export const profileData = {
   ],
   education: [
     {
-      degree: "B.Tech in CSE",
-      institution:
-        "Bansal Institute of Research, Technology & Science, Bhopal",
-      year: "Aug 2023 - Present",
-      details: "CGPA: 8.6",
+      degree: "B.Sc. in CSE (Planned)",
+      institution: "TBD",
+      year: "2030 (Planned)",
+      details: "BSc after diploma completion",
     },
     {
-      degree: "12th - Higher Secondary School",
-      institution: "Govt. Subhash Excellence School",
-      year: "Apr 2023",
-      details: "GPA: 93.4%",
+      degree: "Diploma in Engeneering",
+      institution:
+        "Kurigram Polytechnic Institute, Kurigram",
+      year: "Feb 2025 - Present",
+      details: "CGPA: 3.56(Appx.)",
     },
     {
       degree: "10th - Secondary School",
-      institution: "Govt. Subhash Excellence School",
-      year: "Apr 2021",
-      details: "GPA: 86%",
+      institution: "Burir Hat Adarsha High School",
+      year: "2022-2023",
+      details: "GPA: 4.83",
     },
   ],
   certifications: [
@@ -254,13 +256,13 @@ export const profileData = {
     hardSolved: 0,
   },
   contact: {
-    email: "kawadkarmuskan4@gmail.com",
-    linkedin: "https://www.linkedin.com/in/muskankawadkar",
-    github: "https://github.com/techmuskan",
-    youtube: "https://www.youtube.com/@muskankawadkar?si=onvseHOIOWsRK2Lp",
-    instagram: "https://www.instagram.com/muskan.kawadkar/",
-    leetcode: "https://leetcode.com/u/7iHcre53wg/",
-    hackerrank: "https://www.hackerrank.com/kawadkarmuskan4",
+    email: "utshoprogrammer@gmail.com",
+    linkedin: "https://www.linkedin.com/in/utshoprogrammer",
+    github: "https://github.com/utshoprogrammer",
+    youtube: "https://codeforces.com/profile/utshoprogrammer",
+    instagram: "https://www.codechef.com/users/utsaprogrammer",
+    leetcode: "https://leetcode.com/u/utshoprogrammer/",
+    hackerrank: "https://www.hackerrank.com/utshoprogrammer",
   },
   resume: "/resume.pdf",
 };
